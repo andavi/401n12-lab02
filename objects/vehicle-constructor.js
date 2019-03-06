@@ -1,27 +1,13 @@
 'use strict';
 //-------------------------------------------------------------------------
 // Variables
-	// name, wheels n_n
+// name, wheels n_n
 // Behavior (Functions)
-  // drive,stop
-
-class Vehicle {
-	constructor(name, wheels) {
-		this.name = name;
-		this.wheels = wheels;
-	}
-	drive() {
-		return 'Moving Forward';
-	}
-
-	stop() {
-		return 'Stopping';
-	}
-}
+// drive,stop
 
 
 const Vehicle = function(name, wheels) {
-	// Vinicio - this part will what in classes we call "costructor"
+  // Vinicio - this part will what in classes we call "costructor"
   this.name = name;
   this.wheels = wheels;
 };
@@ -36,21 +22,21 @@ Vehicle.prototype.stop = () => {
 //-------------------------------------------------------------------------
 // Car Constructor
 // behavior
-  // N/A
+// N/A
 // variables
-  // color (just for the purposes of this lab)
+// color (just for the purposes of this lab)
 const Car = function(name, color) {
   Vehicle.call(this, name, 4);
-	// Vinicio - this is just for the demo
-	this.color = color;
+  // Vinicio - this is just for the demo
+  this.color = color;
 };
 
 Car.prototype = new Vehicle();
 //-------------------------------------------------------------------------
 // variables
-	// N/A
+// N/A
 // behavior / "member" functions / methods
- // wheelie
+// wheelie
 const Motorcycle = function(name) {
   Vehicle.call(this,name,2);
 };
