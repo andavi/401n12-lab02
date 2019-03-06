@@ -6,11 +6,8 @@
 ### Author: Andrew Davis
 
 ### Links and Resources
-* [repo](http://xyz.com)
+* [repo](https://github.com/andavi/401n12-lab02)
 * [travis](http://xyz.com)
-
-#### Documentation
-* [jsdoc](http://xyz.com) (All assignments)
 
 ### Modules
 #### `modulename.js`

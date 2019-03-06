@@ -1,7 +1,7 @@
 'use strict';
 
 // Vinicio - let's use the full name in these instances
-const Vehicle = require('../vehicle-constructor.js');
+const Vehicle = require('../vehicle-factory.js');
 // const Vehicle = require('../vehicle-class.js');
 
 describe('Vehicles', () => {
